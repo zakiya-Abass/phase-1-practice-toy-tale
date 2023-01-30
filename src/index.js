@@ -13,3 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+document.getElementById("toy-collection").document.addEventListener("DOMContentLoaded",()=>{
+  method: "GET"
+  url: "/api/toys",
+  
+})
